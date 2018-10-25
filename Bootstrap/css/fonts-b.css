@@ -1,0 +1,97 @@
+body {
+    font-family: 'Raleway';
+    font-family: 'Sumana';
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.card-title {
+    font-family: 'Raleway';
+    color: #191A1D;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.card-body .card-text {
+    font-family: 'Sumana';
+    font-weight: 300;
+    font-size: 14px;
+    color: #191A1D;
+    text-decoration: none;
+    line-break: 45px;
+}
+
+.btn-light-custom {
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 11px;
+    line-height: .90909em;
+    text-transform: uppercase;
+}
+
+.text-muted a {
+    font-family: 'Raleway';
+    font-weight: 400;
+    color: #191A1D;
+    text-decoration: none;
+}
+
+.text-muted span {
+    font-family: 'Sumana';
+    font-weight: 200;
+}
+
+.photo-description {
+    font-family: 'Raleway';
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.navbar-brand {
+    font-weight: 100;
+    font-size: 24px;
+    font-family: 'Raleway';
+
+}
+
+.nav-link {
+    font-family: 'Raleway';
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+
+.form-inline .form-control {
+    font-family: 'Raleway';
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.dropdown-item {
+    color: #191A1D;
+    font-family: 'Raleway';
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.newsletter .form-control {
+    font-family: 'Raleway';
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.newsletter .text-muted {
+    font-size: 12px;
+    font-family: 'Raleway';
+}
+
+.footer-menu-items li a {
+    color: gray;
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+}

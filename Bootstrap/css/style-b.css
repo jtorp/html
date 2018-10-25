@@ -1,57 +1,23 @@
-@import url('https://fonts.googleapis.com/css?family=Dosis|Open+Sans');
-@import url('https://fonts.googleapis.com/css?family=Dosis:300,400');
+@import url("fonts-b.css");
+@import url("mobile-b.css");
 
 /*----------------- 
-Fonts; Buttons
+0. Buttons 
 ----------------------*/
-.card-title {
-    text-transform: uppercase;
-    font-family: 'Dosis', sans-serif;
-    font-weight: 300;
-    color: black;
-    text-decoration: none;
-}
-
-.card-body .card-text {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    color: black;
-    text-decoration: none;
-    line-break: 45px;
-}
-
 .card-text {
     text-decoration: none;
 }
 
-.newsletter .container {
-    font-weight: 300;
-    font-family: 'Open Sans', sans-serif;
-    color: black;
-}
-
-.photo-description {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    font-size: 14px;
-}
-
 .btn-light-custom {
     padding: 16px 15px 14px;
-    border: 1px solid rgba(21, 21, 21, 0.9);
+    border: 1px solid #191A1D;
     background: #fff;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: .90909em;
-    text-transform: uppercase;
-    border-color: rgba(21, 21, 21, 0.9);
-    color: rgba(21, 21, 21, 0.9);
 }
 
 .btn-light-custom:hover {
     color: white;
-    background: rgba(21, 21, 21, 0.9);
+    background: #191A1D;
+    ;
 }
 
 /*----------------- 
@@ -66,20 +32,9 @@ Fonts; Buttons
     border-bottom: 1px solid lightgrey;
 }
 
-.navbar-brand {
-    font-weight: 100;
-    font-size: 24px;
-    font-family: 'Dosis', sans-serif;
-}
-
 .nav-link {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    font-weight: 500;
     margin-top: 10px;
     margin-right: 10px;
-    text-transform: uppercase;
-
 }
 
 .navbar .search {
@@ -91,28 +46,13 @@ Fonts; Buttons
     color: gray;
 }
 
-.form-inline .form-control {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
-    font-weight: 100;
-}
-
 .navbar .search:focus {
     width: 300px;
     content: "..."
 }
 
 .navbar a:hover {
-    color: black;
-}
-
-.dropdown-item {
-    color: gray;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    font-family: 'Open Sans', sans-serif;
+    color: #191A1D;
 }
 
 .dropdown-submenu {
@@ -124,10 +64,12 @@ Fonts; Buttons
     left: 100%;
     margin-top: -6px;
     margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
     border-radius: 0 6px 6px 6px;
 }
 
-.dropdown-submenu :hover>.dropdown-menu {
+.dropdown-submenu:hover>.dropdown-menu {
     display: block;
 }
 
@@ -146,7 +88,8 @@ Fonts; Buttons
 }
 
 .dropdown-submenu:hover>a:after {
-    border-left-color: black;
+    border-left-color: #191A1D;
+
 }
 
 .dropdown-submenu.pull-left {
@@ -156,6 +99,8 @@ Fonts; Buttons
 .dropdown-submenu.pull-left>.dropdown-menu {
     left: -100%;
     margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
     border-radius: 6px 0 6px 6px;
 }
 
@@ -189,14 +134,7 @@ Fonts; Buttons
 .card-img-top:hover {
     box-shadow: 0px 12px 32px -12px rgba(21, 21, 21, 0.7);
     transform: translateY(-4px);
-}
-
-.text-muted a {
-    font-family: 'Open Sans', sans-serif;
-    letter-spacing: 1px;
-    font-weight: 500;
-    color: black;
-    text-decoration: none;
+    -webkit-transform: translateY(-4px);
 }
 
 .text-muted a:hover {
@@ -206,7 +144,6 @@ Fonts; Buttons
 .text-muted span {
     margin-right: 20px;
 }
-
 
 /*----------------- 
 3. Third Column 
@@ -219,6 +156,8 @@ Fonts; Buttons
 
 .sidebar-sticky :hover {
     transform: scale(1.01);
+    -webkit-transform: scale(1.01);
+
 }
 
 .popular-tags-widget {
@@ -227,6 +166,7 @@ Fonts; Buttons
 }
 
 .popular-tags a {
+    font-family: 'Raleway';
     border: 1px solid #e5e5e5;
     color: gray;
     display: inline-block;
@@ -243,19 +183,16 @@ Fonts; Buttons
 .popular-tags a:hover {
     background: transparent;
     border: 1px solid gray;
-    color: black;
+    color: #191A1D;
     text-decoration: none;
 }
 
-.sidebar .card-img-top :hover {
-    transform: rotateY(180deg);
-
-}
 
 .sidebar :hover.photo-description {
     background: rgba(230, 230, 230, 0.8) none repeat scroll 0 0;
     opacity: 1;
     transform: translateY(-10%);
+    -webkit-transform: translateY(-10%);
     transition: all 0.3s ease 0s;
     visibility: visible;
     position: absolute;
@@ -264,7 +201,7 @@ Fonts; Buttons
 .photo-description .sidebar-post-list>li a {
     font-size: 16px;
     line-break: loose;
-    color: black;
+    color: #191A1D;
     text-decoration: none;
     letter-spacing: 1px;
     line-height: 40px;
@@ -273,7 +210,7 @@ Fonts; Buttons
 
 .photo-description .sidebar-post-list>li a:hover {
     text-decoration: none;
-    font-size: 18px;
+    font-weight: bold;
 }
 
 /*----------------- 
@@ -285,17 +222,6 @@ Fonts; Buttons
     padding-top: 2rem;
     padding-bottom: 2rem;
     margin-top: 3rem;
-}
-
-.newsletter .text-muted {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
-}
-
-.newsletter .form-control {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
-    font-weight: 100;
 }
 
 /*----------------- 
@@ -318,12 +244,15 @@ Fonts; Buttons
 
 .insta-photo-item :hover.img-fluid {
     transform: scale(1.06);
+    -webkit-transform: scale(1.06);
+
 
 }
 
 .photo-container :hover.photo-description {
     opacity: 1;
     transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
     visibility: visible;
 }
 
@@ -339,6 +268,7 @@ Fonts; Buttons
 
     top: 50%;
     transform: translateY(-5%);
+    -webkit-transform: translateY(-5%);
     transition: all 0.5s ease-in 0s;
     width: 100%;
     z-index: 1;
@@ -379,7 +309,7 @@ Fonts; Buttons
 }
 
 .footer-menu-items li a:hover {
-    color: black;
+    color: #191A1D;
     text-decoration: none;
 }
 
@@ -388,22 +318,15 @@ Fonts; Buttons
 }
 
 .footer-menu-items li+li::before {
-    background: black none repeat scroll 0 0;
+    background: #191A1D none repeat scroll 0 0;
     content: "";
     height: 10px;
     left: -15px;
     position: absolute;
     top: 50%;
     transform: translateY(-35%);
+    -webkit-transform: translateY(-35%);
     width: 1px;
-}
-
-.footer-menu-items li a {
-    color: gray;
-    font-size: 11px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    font-family: 'Open Sans', sans-serif;
 }
 
 .copy-right-info {
