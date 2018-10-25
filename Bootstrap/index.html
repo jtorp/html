@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap Sample - Female Magazine / Blog </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <!-- i like fa icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/regular.css" integrity="sha384-4e3mPOi7K1/4SAx8aMeZqaZ1Pm4l73ZnRRquHFWzPh2Pa4PMAgZm8/WNh6ydcygU"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/fontawesome.css" integrity="sha384-BzCy2fixOYd0HObpx3GMefNqdbA7Qjcc91RgYeDjrHTIEXqiF00jKvgQG0+zY/7I"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style-b.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-light absolute-top">
+      <div class="container">
+        <a class="navbar-brand mx-auto order-1 order-md-3" href="index.html">Красота</a> <!-- to do icon-->
+        <button type="button" class="navbar-toggler order-2 order-md-1" class="navbar-toggle" data-toggle="collapse"
+          data-target="#main-navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          <span class="menu-hamburger"></span>
+        </button>
+        <div class="collapse navbar-collapse order-2 order-md-2" id="main-navbar">
+          <!-- start collapsable -->
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown active">
+              <!--Home menu-->
+              <a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">Home</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown02">
+                <a class="dropdown-item" href="#/"> Latest posts </a>
+                <a class="dropdown-item" href="#/"> Lifestyle</a>
+                <a class="dropdown-item" href="#/"> Work & Career</a>
+                <a class="dropdown-item" href="#/"> Fitness</a>
+                <a class="dropdown-item" href="#/"> Beauty & Makeup</a>
+                <a class="dropdown-item" href="#/">Fasion</a>
+                <a class="dropdown-item" href="#/"> Family & Relationships </a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#/"> About You </a>
+              </div>
+
+              <!-- Links menu-->
+            </li>
+            <li class="nav-item dropdown ">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">Posts</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown02">
+                <a class="dropdown-item" href="#/">Tests </a>
+                <a class="dropdown-item" href="#/">Horoscopes</a>
+                <a class="dropdown-item" href="#/">Win</a>
+              </div>
+            </li>
+            <!-- Author menu-->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">Authors</a>
+
+              <div class="dropdown-menu" aria-labelledby="dropdown03">
+                <a class="dropdown-item" href="#/">Popular Authors</a>
+                <a class="dropdown-item" href="#/">New Authors</a>
+                <a class="dropdown-item" href="http://www.psychologies.ru/themes/expert/"> Ask Expert Advice</a>
+              </div>
+            </li>
+          </ul>
+        </div> <!-- collapse end -->
+        <div class="collapse navbar-collapse order-4 order-md-4 " id="main-navbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">Subscribe</a>
+              <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                <a class="dropdown-item" href="#/">Give a gift </a>
+                <li class="dropdown-submenu nav-item">
+                  <a class="dropdown-item" href="#">Newsletter</a>
+                  <ul class="dropdown-menu">
+                    <a class="dropdown-item" href="#/">Print edition </a>
+                    <a class="dropdown-item" href="#/">Digital edition </a>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!-- no drop-down nav link-->
+            <li class="nav-item">
+              <a class="nav-link" href="#/">Follow </a>
+            </li>
+          </ul>
+          <!--search-->
+          <form class="form-inline" role="search">
+            <input class="search js-search form-control form-control-rounded mr-sm-2" type="text" placeholder="Search"
+              aria-label="Search"><i class="material-icons">
+            </i>
+          </form>
+        </div>
+      </div>
+      <!--header container end-->
+    </nav>
+  </header>
+  <main>
+    <div class="container-fluid">
+      <div class="row">
+        <!--col 1st start-->
+        <div class="col-md-4 col-lg-4">
+          <article class="card mt-3">
+            <header>
+              <small class="text-muted"><a href="#/"> WORK & CAREER </a>
+                <span> | published 2018-05-18 </span>
+              </small>
+              <h4 class="card-title"> Article about work and career</h4>
+            </header>
+            <a href="#/">
+              <img class="card-img-top img-fluid rounded" style="max-width: 100%; height:auto" src="https://images.unsplash.com/photo-1540039879313-bb12211ec455?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=fe3c5ecd1871303147aefa62c4a3c0fd&auto=format&fit=crop&w=500&q=60"
+                alt="responsive article image" />
+
+              <div class="card-body">
+                <p class="card-text">
+                  One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed
+                  into
+                  a horrible vermin. He lay on his armour-like back.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">
+                    <i class="far fa-eye"></i>
+                    <span> Views: 10.2K </span>
+                    <i class="far fa-comment"></i>
+                    <span> Comments: 2.4K </span>
+                  </small>
+                </p>
+            </a>
+        </div>
+        </article>
+        <article class="card mt-3">
+          <header>
+            <small class="text-muted"><a href="#/"> FAMILY & RELATIONSHIPS </a></strong>
+              <span> | published 2018-09-12 </span>
+            </small>
+            <h4 class="card-title"> Article about relationships</h4>
+          </header>
+          <a href="#/">
+            <img class="card-img-top rounded" style="max-width: 100%; height: auto" src="https://images.unsplash.com/photo-1534630103086-5b1c106f74e0?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bbf896727f55505b8d29c12bc9522376&auto=format&fit=crop&w=500&q=60"
+              alt="responsive article image" />
+            <div class="card-body">
+              <p class="card-text">
+                The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs,
+                pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. "What's
+                happened to me?" he thought. It wasn't a dream. His room, a proper human
+              </p>
+              <p class="card-text">
+                <small class="text-muted">
+                  <i class="far fa-eye"></i>
+                  <span> Views: 10.2K </span>
+                  <i class="far fa-comment"></i>
+                  <span> Comments: 2.4K </span>
+                </small>
+              </p>
+          </a>
+      </div>
+      </article>
+      <article class="card mt-3">
+        <header>
+          <small class="text-muted"><a href="#/"> BEAUTY & MAKEUP </a></strong>
+            <span> | published 2018-10-02 </span>
+          </small>
+          <h4 class="card-title"> Article about makeup</h4>
+        </header>
+        <a href="#/">
+          <img class="card-img-top rounded" style="max-width: 100%; height: auto" src="https://images.unsplash.com/photo-1530863138121-03aea5f46fd4?ixlib=rb-0.3.5&s=8d11358ed0a380529a654b8e96da1936&w=1000&q=80"
+            alt="responsive article image" />
+
+          <div class="card-body">
+            <p class="card-text">
+              The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs,
+              pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. "What's
+              happened to me?" he thought. It wasn't a dream. His room, a proper human
+            </p>
+            <p class="card-text">
+              <small class="text-muted">
+                <i class="far fa-eye"></i>
+                <span> Views: 10.2K </span>
+                <i class="far fa-comment"></i>
+                <span> Comments: 2.4K </span>
+              </small>
+            </p>
+        </a>
+    </div>
+    </article>
+    <!--end card-->
+    </div>
+    <!--end  1st col-->
+    <!-- start 2nd col  -->
+    <div class="col-md-5">
+      <!--card group block-->
+      <div class="card-group-block mx-auto ">
+        <article class="card">
+          <div class="card-body no-image-article">
+            <small class="text-muted"><a href="#/"> LATEST </a>
+              <span> | published Today </span>
+            </small>
+            <a href="#/">
+              <h5 class="card-title"> The best overnight masks </h5>
+              <p class="card-text">Drops of rain could be heard hitting the pane, which made him feel quite sad. "How
+                about if I sleep
+                a little bit longer and forget all this nonsense </p>
+            </a>
+            <p class="card-text">
+              <small class="text-muted">
+                <i class="far fa-eye"></i>
+                <span> Views: 780 </span>
+                <i class="far fa-comment"></i>
+                <span> Comments: 40 </span>
+              </small>
+            </p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-body no-image-article">
+            <small class="text-muted"><a href="#/"> LATEST </a></strong>
+              <span> | published 2018-10-20 </span>
+            </small>
+            <a href="#/">
+              <h5 class="card-title">Amazing ideas for holidays </h5>
+              <p class="card-text">However hard he threw himself onto his right, he always rolled back to where he was.
+              </p>
+            </a>
+            <p class="card-text">
+              <small class="text-muted">
+                <i class="far fa-eye"></i>
+                <span> Views: 340 </span>
+                <i class="far fa-comment"></i>
+                <span> Comments: 3 </span>
+              </small>
+            </p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-body no-image-article">
+            <small class="text-muted"><a href="#/"> LATEST </a></strong>
+              <span> | published 2018-10-19 </span>
+            </small>
+            <a href="#/">
+              <h5 class="card-title"> Something very interesting </h5>
+              <p class="card-text">He must have tried it a hundred times, shut his eyes so that he wouldn't have to
+                look at the floundering
+                legs. </p>
+            </a>
+            <p class="card-text">
+              <small class="text-muted">
+                <i class="far fa-eye"></i>
+                <span> Views: 20 </span>
+                <i class="far fa-comment"></i>
+                <span> Comments: 0 </span>
+              </small>
+            </p>
+          </div>
+        </article>
+      </div> <!-- end card group -->
+      <br>
+      <article class="card mt-3">
+        <header>
+          <small class="text-muted"><a href="#/"> LIFESTYLE </a></strong>
+            <span> | published 2018-00-22 </span>
+          </small>
+          <h4 class="card-title"> Article about lifestyle</h4>
+        </header>
+        <a href="#/">
+          <img class="card-img-top rounded" style="max-width: 100%; height: auto" src="https://images.unsplash.com/photo-1505489304219-85ce17010209?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=457aedd6b142f5d8f30dae84fa3b3ec3&auto=format&fit=crop&w=500&q=60"
+            alt="responsive article image" />
+          <div class="card-body">
+            <p class="card-text">
+              A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above
+              it there hung a
+              picture that he had recently cut out of an illustrated magazine and housed in a nice, gilded frame.
+            </p>
+            <p class="card-text">
+              <small class="text-muted">
+                <i class="far fa-eye"></i>
+                <span> Views: 2K </span>
+                <i class="far fa-comment"></i>
+                <span> Comments: 512 </span>
+              </small>
+            </p>
+        </a>
+    </div>
+    </article>
+    <article class="card mt-3">
+      <header>
+        <small class="text-muted"><a href="#/"> FITNESS </a></strong>
+          <span> | published 2018-09-12 </span>
+        </small>
+        <h4 class="card-title"> Article about fitness </h4>
+      </header>
+      <a href="#/">
+        <img class="card-img-top rounded" style="max-width: 100%; height: auto" src="https://images.unsplash.com/photo-1485727749690-d091e8284ef3?ixlib=rb-0.3.5&s=480b647b770640a3cd4c57ae41f91241&auto=format&fit=crop&w=500&q=60"
+          alt="responsive article image" />
+        <div class="card-body">
+          <p class="card-text">
+            It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that
+            covered the whole of
+            her lower arm towards
+          </p>
+          <p class="card-text">
+            <small class="text-muted">
+              <i class="far fa-eye"></i>
+              <span> Views: 7.2K </span>
+              <i class="far fa-comment"></i>
+              <span> Comments: 140 </span>
+            </small>
+          </p>
+      </a>
+      </div>
+    </article>
+    </div>
+    <!--end 2nd col-->
+    <!-- start 3rd column -->
+    <div class="col-xs-11 col-sm-11 col-md-3 col-lg-3 ml-auto mr-auto">
+      <!-- win -->
+      <aside class="sidebar-sticky mt-3 mb-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">Win Prizes! </h4>
+            <p class="card-text"> "Oh, God", he thought, "what a strenuous career it is that I've chosen! Travelling
+              day in and day out. </p>
+            <a href="#"><button class="btn btn-light-custom" type="button">Enter now</button> </a>
+          </div>
+        </div>
+      </aside>
+      <!--Tags-->
+      <aside class="popular-tags-widget mb-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">Popular Tags</h4>
+            <div class="popular-tags">
+              <a href="#">Relationships</a>
+              <a href="#">Woman</a>
+              <a href="#">Love</a>
+              <a href="#">Breakfast ideas</a>
+              <a href="#">Work</a>
+              <a href="#">Fashion</a>
+              <a href="#">Family</a>
+              <a class="btn btn-light btn-sm mb-1 " href="#">Horoscopes</a>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <div class="card sidebar">
+        <div class="card mb-4">
+          <div class="card-body-wrap">
+            <h5 class="card-title">Fashion & Style </h5>
+            <img class="card-img-top rounded" src="https://images.unsplash.com/photo-1539782993767-cd2b2804c3d6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a0ee13dff16f05c9755883ab4549042d&auto=format&fit=crop&w=500&q=60"
+              alt="fashion">
+            <div class="photo-description">
+              <ul class="sidebar-post-list" style="list-style:none">
+                <li><a href="#/">Makeup </a></li>
+                <li><a href="#"> Hairstyle </a></li>
+                <li><a href="#"> Beauty </a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-4">
+          <div class="card-body-wrap">
+            <h5 class="card-title">Horoscopes</h5>
+            <img class="card-img-top rounded" src="https://images.unsplash.com/photo-1532968961962-8a0cb3a2d4f5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=524de99b965b9a8d64fc9e433dee8227&auto=format&fit=crop&w=500&q=60"
+              alt="horoscopes">
+            <div class="photo-description">
+              <ul class="sidebar-post-list" style="list-style:none">
+                <li><a href="#/"> Daily Horoscope </a></li>
+                <li><a href="#"> Annual horoscope 2018 </a></li>
+                <li><a href="#"> October 2018 </a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-4">
+          <div class="card-body-wrap">
+            <h5 class="card-title"> Short Tests </h5>
+            <img class="card-img-top rounded" src="https://images.unsplash.com/photo-1441034281545-78296c3a6934?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=24d86ecc52a3e5d0d8f4f085e82a14ef&auto=format&fit=crop&w=500&q=60"
+              alt="tests">
+            <div class="photo-description">
+              <ul class="sidebar-post-list" style="list-style:none">
+                <li><a href="#/">Personality </a></li>
+                <li><a href="#/">Fun Tests</a></li>
+                <li><a href="#/">Various Tests</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-4">
+          <div class="card-body-wrap">
+            <h5 class="card-title"> Eat better: new ideas </h5>
+            <img class="card-img-top rounded" src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0245bb4e87077312cc3d102e68c1efd&auto=format&fit=crop&w=500&q=60"
+              alt="food">
+            <div class="photo-description">
+              <ul class="sidebar-post-list" style="list-style:none">
+                <li><a href="#/">Breakfast ideas</a></li>
+                <li><a href="#/">French dishes </a></li>
+                <li><a href="#/">Pizza dishes </a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-4">
+          <div class="card-body-wrap">
+            <h5 class="card-title"> Something Else here </h5>
+            <img class="card-img-top rounded" src="https://images.unsplash.com/photo-1540305003737-260575b14fa2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1c1dce0511b04661cdcb2d3c86a2685a&auto=format&fit=crop&w=500&q=60"
+              alt="else">
+            <div class="photo-description">
+              <ul class="sidebar-post-list" style="list-style:none">
+                <li><a href="#/">Ski holidays</a></li>
+                <li><a href="#/">Christmas planning</a></li>
+                <li><a href="#/">Gift ideas </a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end sidebar-->
+    </div>
+    <!-- end 3rd col  -->
+    </div>
+    <!-- end row -->
+    </div>
+    <!--end container main-->
+  </main>
+  <div class="pagination-sm text-center">
+    <div class="text-center ">
+      <a href="#/">
+        <button class="btn btn-bae btn-light-custom"> Load more</button>
+      </a>
+    </div>
+    <section>
+      <div class="newsletter">
+        <div class="container">
+          <div class="text-center">
+            <h5 class="card-title">Subscribe</h5>
+            <p class="text-muted">Subscribe to receive updates and latest news!</p>
+            <div class="row">
+            <div class="col-xs-12 col-sm-10 col-md-9 col-lg-5 ml-auto mr-auto">
+                 <div class="input-group mb-3 mt-2">
+                <input type="text" class="form-control" placeholder="Your email" aria-label="Your address">
+                <button class="btn btn-bse btn-light-custom" type="button">Subscribe</button>
+                </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="photo-container photo-gutter ">
+      <div class="col-12">
+        <div class="photo-description">
+          <a href="#/"> Follow us on instagram </a>
+        </div>
+        <div class="row">
+          <div class="col-2 insta-photo-item ">
+            <a href="https://www.instagram.com/instagram/?hl=en">
+              <img class="img-fluid" src="https://images.unsplash.com/photo-1539896237773-f17d7601816f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c79ee86319f99b322b8aa314875ea1fc&auto=format&fit=crop&w=500&q=60"
+                alt="insta photo" /></a>
+          </div>
+          <div class="col-2 insta-photo-item ">
+            <a href="https://www.instagram.com/instagram/?hl=en">
+              <img class="img-fluid" src="https://images.unsplash.com/photo-1540051639129-e71a78e6680d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1e6f91cd794e0ccc619db57ea15c4462&auto=format&fit=crop&w=500&q=60"
+                alt="insta photo" /> </a>
+          </div>
+          <div class="col-2 insta-photo-item ">
+            <a href="https://www.instagram.com/instagram/?hl=en">
+              <img class="img-fluid" src="https://images.unsplash.com/photo-1525896969906-0a4806967ef0?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bf7102d355cdc7bf0acf04e05a4f6ff7&auto=format&fit=crop&w=500&q=60"
+                alt="insta photo" /></a>
+          </div>
+          <div class="col-2 insta-photo-item">
+            <a href="https://www.instagram.com/instagram/?hl=en">
+              <img class="img-fluid" src="https://images.unsplash.com/photo-1540131572580-89bf0f087b0b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=23d5c81a6e58be5181a58f9f4247a044&auto=format&fit=crop&w=500&q=60"
+                alt="insta photo" /></a>
+          </div>
+          <div class="col-2 insta-photo-item">
+            <a href="https://www.instagram.com/instagram/?hl=en">
+              <img class="img-fluid" src="https://images.unsplash.com/photo-1540037985038-1e79a50f5797?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0f489c9d5980345edf5fbd4645116881&auto=format&fit=crop&w=500&q=60"
+                alt="insta photo" /></a>
+          </div>
+          <div class="col-2 insta-photo-item">
+            <a href="https://www.instagram.com/instagram/?hl=en">
+              <img class="img-fluid" src="https://images.unsplash.com/photo-1539963549904-7bd43d309ee0?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ff076767e0f8b368f9d1c70409ce35e5&auto=format&fit=crop&w=500&q=60"
+                alt="insta photo" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--start footer -->
+    <footer class="footer text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-12">
+            <div class="footer-menu">
+              <ul class="footer-menu-items">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Advertise</a></li>
+                <li><a href="#">T & C</a></li>
+              </ul>
+              <div class="copy-right-info">
+                <p>All rights reserved &copy; 2018</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
+    <!--js-->
+    <script src=""></script>
+</body>
+</html>

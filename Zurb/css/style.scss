@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
+
+/* base colors*/
+$header-color:rgb(19,32,43);
+$header-color-2:rgb(35,58,79);
+$border-color : rgb(193, 211, 227) ;
+$article-tint-box: rgb(228, 235, 242);
+$font-color: rgb(22,26,30);
+$border-color: rgb(193, 211, 227) ;
+$link-color: rgb(49, 83, 2);
+$active-subnav-color:  rgb(228, 235, 242);
+$link-hover-color:  rgb(49, 83, 112);
+$strong-color: rgb(49, 83, 112);
+$background-color: #fafafa; /*if user has browser custom setting */ 
+
+/* base style of the page*/
+html, body, form{
+  margin: 0;
+  padding: 0;
+}
+
+h1,h2{
+  color: $header-color;
+  font-family: 'Noto Serif', serif;
+
+}
+
+h2,h3 {
+  line-height: 20px;
+  color: $header-color-2;
+}
+input[type=search] { 
+  border: 1px solid $border-color;
+  font-size: 20px;
+ }
+a{
+color: rgb(193, 211, 227);
+font-size: 16px;
+}
+a:hover{
+  cursor: pointer;
+  color: rgb(49, 83, 112);;
+  text-decoration: underline;
+}
+
+/*Layout styles with l-  or grid- prefix*/
+p{
+  text-align: justify;
+  font-size: 12px;
+}
+article p{
+  text-align: justify;
+}
+
+/*Module styles*/
+
+.top-shortcuts {
+  margin-top: .8rem; 
+}
+
+ul li {
+  list-style: none;
+  line-height: 24px;
+}
+
+footer ul li {
+  font: bold 11px/12px 'PT Serif', serif;
+  color: 333;
+  line-height: 22px;
+  opacity: .9;
+  text-align: left;
+}
+/*Theme styles*/
+
+.muted {
+  opacity: 0.75;
+  font-size: 12px; 
+}
+
+.sub-nav {
+  background-color:rgb(193, 211, 227) ;
+  padding: 0.5em 0; 
+}
+
+.tint-box{
+  background-color: rgb(228, 235, 242);
+  padding: 0.94rem;
+  margin-bottom:  0.94rem;
+}
+.ruled{
+  border: 0.5px solid lightgrey;
+  border-width:  0 1px 0 1px;
+}

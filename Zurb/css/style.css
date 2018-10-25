@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif");
+/* base colors*/
+/*if user has browser custom setting */
+/* base style of the page*/
+html, body, form {
+  margin: 0;
+  padding: 0; }
+
+h1, h2 {
+  color: #13202b;
+  font-family: 'Noto Serif', serif; }
+
+h2, h3 {
+  line-height: 20px;
+  color: #233a4f; }
+
+input[type=search] {
+  border: 1px solid #c1d3e3;
+  font-size: 20px; }
+
+a {
+  color: #315370;;
+  font-size: 16px; }
+
+a:hover {
+  cursor: pointer;
+  color: #315370;
+  text-decoration: underline; }
+
+/*Layout styles with l-  or grid- prefix*/
+p {
+  text-align: justify;
+  font-size: 12px; }
+
+article p {
+  text-align: justify; }
+
+/*Module styles*/
+.top-shortcuts {
+  margin-top: .8rem; }
+
+ul li {
+  list-style: none;
+  line-height: 24px; }
+
+footer ul li {
+  font: bold 11px/12px 'PT Serif', serif;
+  color: 333;
+  line-height: 22px;
+  opacity: .9;
+  text-align: left; }
+
+/*Theme styles*/
+.muted {
+  opacity: 0.75;
+  font-size: 12px; }
+
+.sub-nav {
+  background-color: #c1d3e3;
+  padding: 0.5em 0; }
+
+.tint-box {
+  background-color: #e4ebf2;
+  padding: 0.94rem;
+  margin-bottom: 0.94rem; }
+
+.ruled {
+  border: 0.5px solid lightgrey;
+  border-width: 0 1px 0 1px; }
+
+/*# sourceMappingURL=style.css.map */
