@@ -10,13 +10,14 @@
 
 .btn-light-custom {
     padding: 16px 15px 14px;
-    border: 1px solid #191A1D;
-    background: #fff;
+    border: 1px solid #171119;
+    background: #F5F1F3;
 }
 
 .btn-light-custom:hover {
-    color: white;
-    background: #191A1D;
+    color: #F5F1F3;
+    background: #4D726A;
+    border-color: #4D726A;
     ;
 }
 
@@ -25,16 +26,8 @@
 ----------------------*/
 .navbar {
     width: 100%;
-    background-color: #fff;
-}
-
-.navbar {
+    background-color: #F5F1F3;
     border-bottom: 1px solid lightgrey;
-}
-
-.nav-link {
-    margin-top: 10px;
-    margin-right: 10px;
 }
 
 .navbar .search {
@@ -43,16 +36,25 @@
     border: 1px solid lightgray;
     border-radius: 6px;
     background: transparent;
-    color: gray;
+    color: #565355;
 }
 
 .navbar .search:focus {
     width: 300px;
-    content: "..."
+    content: "...";
 }
 
-.navbar a:hover {
-    color: #191A1D;
+.dropdown-menu {
+    margin-top: 8px;  
+}
+
+.dropdown-item {
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.dropdown-item:hover {
+    color: #4D726A;
 }
 
 .dropdown-submenu {
@@ -82,7 +84,7 @@
     border-color: transparent;
     border-style: solid;
     border-width: 5px 0 5px 5px;
-    border-left-color: #ccc;
+    border-left-color: #F5F1F3;
     margin-top: 5px;
     margin-right: -10px;
 }
@@ -104,7 +106,6 @@
     border-radius: 6px 0 6px 6px;
 }
 
-
 /*----------------- 
 2. Main area
 ----------------------*/
@@ -120,7 +121,7 @@
     word-wrap: break-word;
     background-color: transparent;
     background-clip: border-box;
-    border: 1px solid whitesmoke;
+    border: 1px solid #F5F1F3;
 }
 
 .container-fluid .card-body>a {
@@ -167,8 +168,8 @@
 
 .popular-tags a {
     font-family: 'Raleway';
-    border: 1px solid #e5e5e5;
-    color: gray;
+    border: 1px solid #F5F1F3;
+    color: #171119;
     display: inline-block;
     font-size: 11px;
     height: 2.2rem;
@@ -181,15 +182,16 @@
 }
 
 .popular-tags a:hover {
-    background: transparent;
-    border: 1px solid gray;
-    color: #191A1D;
+    background: #F5F1F3;
+    border: 1px solid #4D726A;
+    ;
+    color: #4D726A;
     text-decoration: none;
 }
 
 
 .sidebar :hover.photo-description {
-    background: rgba(230, 230, 230, 0.8) none repeat scroll 0 0;
+    background: rgba(245, 241, 243, 0.8) none repeat scroll 0 0;
     opacity: 1;
     transform: translateY(-10%);
     -webkit-transform: translateY(-10%);
@@ -199,9 +201,9 @@
 }
 
 .photo-description .sidebar-post-list>li a {
-    font-size: 16px;
+    font-size: 14px;
     line-break: loose;
-    color: #191A1D;
+    color: #171119;
     text-decoration: none;
     letter-spacing: 1px;
     line-height: 40px;
@@ -210,7 +212,7 @@
 
 .photo-description .sidebar-post-list>li a:hover {
     text-decoration: none;
-    font-weight: bold;
+    font-size: 16px;
 }
 
 /*----------------- 
@@ -222,6 +224,10 @@
     padding-top: 2rem;
     padding-bottom: 2rem;
     margin-top: 3rem;
+}
+
+.form-control:focus {
+    background: #DCF5E2;
 }
 
 /*----------------- 
@@ -237,7 +243,7 @@
 }
 
 .insta-photo-item {
-    padding: 0 .2rem;
+    padding: 0.2rem;
     float: left;
     max-width: 25%;
 }
@@ -275,14 +281,14 @@
 }
 
 .photo-description a {
-    font-size: 32px;
-    color: rgba(230, 230, 230, 0.8);
+    font-size: 25px;
+    color: rgba(245, 241, 243, 0.8);
     text-decoration: none;
 }
 
 .photo-description a:hover {
     font-size: 35px;
-    color: white;
+    color: #F5F1F3;
     text-decoration: none;
 }
 
@@ -290,7 +296,7 @@
 6. Footer
 ----------------------*/
 .footer {
-    border-top: 1px solid silver;
+    border-top: 1px solid lightgray;
     padding-bottom: 1rem;
 }
 
@@ -309,7 +315,7 @@
 }
 
 .footer-menu-items li a:hover {
-    color: #191A1D;
+    color: #171119;
     text-decoration: none;
 }
 
@@ -318,7 +324,7 @@
 }
 
 .footer-menu-items li+li::before {
-    background: #191A1D none repeat scroll 0 0;
+    background: #171119 none repeat scroll 0 0;
     content: "";
     height: 10px;
     left: -15px;
@@ -331,5 +337,5 @@
 
 .copy-right-info {
     font-size: 10px;
-    color: gray;
+    color: #565355;
 }

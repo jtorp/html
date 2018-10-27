@@ -8,7 +8,7 @@ body {
 
 .card-title {
     font-family: 'Raleway';
-    color: #191A1D;
+    color: #171119;
     text-transform: uppercase;
     text-decoration: none;
 }
@@ -17,7 +17,7 @@ body {
     font-family: 'Sumana';
     font-weight: 300;
     font-size: 14px;
-    color: #191A1D;
+    color: #171119;
     text-decoration: none;
     line-break: 45px;
 }
@@ -33,7 +33,7 @@ body {
 .text-muted a {
     font-family: 'Raleway';
     font-weight: 400;
-    color: #191A1D;
+    color: #171119;
     text-decoration: none;
 }
 
@@ -52,7 +52,6 @@ body {
     font-weight: 100;
     font-size: 24px;
     font-family: 'Raleway';
-
 }
 
 .nav-link {
@@ -60,7 +59,7 @@ body {
     font-size: 14px;
     font-weight: 400;
     margin-top: 10px;
-    margin-right: 10px;
+    margin-right: 25px;
     text-transform: uppercase;
 }
 
@@ -71,7 +70,7 @@ body {
 }
 
 .dropdown-item {
-    color: #191A1D;
+    color: #171119;
     font-family: 'Raleway';
     font-size: 12px;
     text-transform: uppercase;
@@ -89,7 +88,7 @@ body {
 }
 
 .footer-menu-items li a {
-    color: gray;
+    color: #565355;
     font-size: 11px;
     letter-spacing: 1px;
     text-transform: uppercase;

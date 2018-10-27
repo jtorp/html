@@ -1,0 +1,63 @@
+/* -------------
+  Small Mobile (Phys.width 768px) 
+------------------*/
+@media (max-width: 767px) {
+    .container {
+        width: 300px
+    }
+
+    .row {
+        padding: 20px 0;
+    }
+
+    .newsletter .container {
+        width: 100%;
+
+    }
+
+    .photo-container.photo-gutter {
+        display: none;
+    }
+
+    .footer {
+        background: #DCF5E2;
+    }
+
+    .nav-link {
+        font-family: 'Raleway';
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    .dropdown-item {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .navbar-brand {
+        font-size: 34px;
+    }
+
+    .card-body .card-text {
+        font-family: 'Sumana';
+        font-weight: 100;
+        font-size: 16px;
+        color: #171119;
+        text-decoration: none;
+        line-break: 45px;
+    }
+
+    header .navbar {
+        background: #DCF5E2;
+    }
+
+    .navbar .navbar-collapse .dropdown-menu {
+        border: 1px solid #4D726A;
+    }
+
+    .navbar .navbar-collapse .dropdown-menu .dropdown-item:hover {
+        background-color: #DCF5E2;
+        ;
+    }
+
+}
