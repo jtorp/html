@@ -107,6 +107,7 @@
     </nav>
   </header>
   <main>
+   
     <div class="container-fluid">
       <div class="row">
         <!--col 1st start-->
@@ -325,15 +326,17 @@
     <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 ml-auto mr-auto">
       <!-- win -->
       <aside class="sidebar-sticky mt-3 mb-2">
-        <div class="card">
-          <div class="card-body">
+        <div class="card" id ="win">
+          <div class="card-body" >
             <h4 class="card-title">Win Prizes! </h4>
             <p class="card-text"> "Oh, God", he thought, "what a strenuous career it is that I've chosen! Travelling
               day in and day out. </p>
-            <a href="#"><button class="btn btn-light-custom" type="button">Enter now</button> </a>
+            <a href="#"><button class="btn btn-light-custom" type="button" id ="winBtn">Enter now!</button> </a>
           </div>
         </div>
       </aside>
+
+
       <!--Tags-->
       <aside class="popular-tags-widget mb-2">
         <div class="card">
@@ -495,6 +498,19 @@
         </div>
       </div>
     </div>
+  <!-- modal-->
+  <div class="bg-modal">
+    <div class="modal-content">
+      <div class="modal-content-close"> + </div>
+      <img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/7639c272217485.5be0595e79aba.png"  alt="winprizeImg">
+      <form class="" role="win">
+          <input class="form-control form-control-rounded  modal-input" type="text" placeholder="Your name">
+          <input class="form-control form-control-rounded  modal-input" type="text" placeholder="Your email">
+      <a href="" class="btn btn-base btn-light-custom" id ="submit-modal"> Submit </a>
+    </form>
+    </div>
+  </div>
+  <!--modal end-->
     <!--start footer -->
     <footer class="footer text-center">
       <div class="container">
@@ -518,7 +534,7 @@
     </footer>
     <!-- end footer -->
     <!--js-->
-    <script src=""></script>
+    <script src="js/script-b.js"></script>
 </body>
 
 </html>
